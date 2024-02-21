@@ -1,0 +1,30 @@
+<p>main-page works!</p>
+<button (click)="updateData()">
+    Update date info
+</button>
+<div>
+    Date {{dateTime.date}}
+</div>
+<div>
+    Time{{dateTime.time}}
+</div>
+<div>
+    Ms{{dateTime.milliseconds_since_epoch}}
+</div>
+
+<h2>To do list</h2>
+<button (click)="updateToDoList()">
+    Update to do list
+</button>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Due By</th>
+        <th>Is Complete </th>
+    </tr>
+    <tr *ngFor='let toDo of toDoList'>
+        <td>{{ toDo.title }}</td>
+        <td>{{ toDo.dueBy }}</td>
+        <td>{{ toDo? "yes" : "no" }}</td>
+    </tr>
+</table>
