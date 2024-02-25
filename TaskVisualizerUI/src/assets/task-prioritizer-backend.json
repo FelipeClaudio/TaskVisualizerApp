@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Walk the dog",
         "dueBy": null,
-        "isComplete": false
+        "isComplete": true
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "id": 4,
         "title": "Clean the bathroom",
         "dueBy": null,
-        "isComplete": false
+        "isComplete": true
     },
     {
         "id": 5,
