@@ -20,9 +20,9 @@ For now, both applications run on docker without any orchestrator supporting it.
 - [ ] Integration tests in the backend
 - [ ] End to end tests
 - [ ] Code coverage
-- [ ] Business documentation
-- [ ] Screen designs
+- [X] Business documentation
+- [X] Screen designs: see: https://shorturl.at/oJPpS
 - [ ] Running app in some cloud structure
 - [ ] SSO
-- [ ] Telemtry and dasboard
-- [ ] Mobile app
+- [ ] Telemetry and dasboard
+- [ ] ~~Mobile app~~
