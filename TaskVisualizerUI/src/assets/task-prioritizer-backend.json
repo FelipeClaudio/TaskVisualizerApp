@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Walk the dog",
+        "dueBy": null,
+        "isComplete": true
+    },
+    {
+        "id": 2,
+        "title": "Do the dishes",
+        "dueBy": "2024-02-24",
+        "isComplete": false
+    },
+    {
+        "id": 3,
+        "title": "Do the laundry",
+        "dueBy": "2024-02-25",
+        "isComplete": false
+    },
+    {
+        "id": 4,
+        "title": "Clean the bathroom",
+        "dueBy": null,
+        "isComplete": true
+    },
+    {
+        "id": 5,
+        "title": "Clean the car",
+        "dueBy": "2024-02-26",
+        "isComplete": false
+    }
+]

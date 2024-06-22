@@ -10,11 +10,13 @@ import { IToDoResponse } from '../models/to-do-response';
 export class HomePageServiceService {
   constructor(private http: HttpClient) { }
 
+  private taskPrioritizerBackendUrl = 'assets/task-prioritizer-backend.json';
+
   getData(): Observable<IDateApiResponse> {
     return this.http.get<IDateApiResponse>('http://date.jsontest.com/');
   }
 
   getToDoList(): Observable<IToDoResponse[]> {
-    return this.http.get<IToDoResponse[]>("http://localhost:32769/todos");
+    return this.http.get<IToDoResponse[]>(this.taskPrioritizerBackendUrl);
   }
 }
