@@ -1,0 +1,1 @@
+docker build . -f .\TaskPrioritizer\Dockerfile --force-rm -t taskvisualizer

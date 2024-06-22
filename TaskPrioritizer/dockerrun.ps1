@@ -1,0 +1,1 @@
+docker container run --name taskvisualizerbackend -p 60123:8080 taskvisualizer

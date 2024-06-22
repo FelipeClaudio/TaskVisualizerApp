@@ -1,0 +1,1 @@
+docker container run --name taskvisualizer -p 60122:4200 taskvisualizerapp
